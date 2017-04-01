@@ -1,0 +1,42 @@
+/*reset*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,button,blockquote,th,td {margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,
+img{border:0;}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;}
+q:before,q:after {content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+input,textarea,select {font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{*font-size:100%;}
+legend{color:#000;}
+/* common */
+body{font: 12px/1.5 \5b8b\4f53;color:#555;}
+.hide{display: none;}
+
+.ui-btn { display: inline-block; padding: 0 13px; *padding:0; height: 28px; border: 1px solid #c1c1c1; border-radius: 2px; box-shadow: 0 1px 1px rgba(0,0,0,0.15); background: #fff; background: -moz-linear-gradient(top, #fff, #f4f4f4); background: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#f4f4f4)); background: -o-linear-gradient(top, #fff, #f4f4f4);background: -ms-linear-gradient(top, #fff 0%,#f4f4f4 100%); background: linear-gradient(top, #fff, #f4f4f4); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f4f4f4'); font: 14px/2 \5b8b\4f53; color: #555; vertical-align: middle; cursor: pointer; }
+.ui-btn:hover {filter:progid:DXImageTransform.Microsoft.Gradient(enabled=false); background: #f4f4f4; color: #555; }
+.ui-btn:active { background: #fbfbfb; background: -moz-linear-gradient(top, #e8e8e8, #fbfbfb); background: -webkit-gradient(linear, 0 0, 0 100%, from(#e8e8e8), to(#fbfbfb)); background: -o-linear-gradient(top, #e8e8e8, #fbfbfb); background: -ms-linear-gradient(top, #e8e8e8 0%,#fbfbfb 100%); background: linear-gradient(top, #e8e8e8, #fbfbfb); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8e8e8', endColorstr='#fbfbfb');}
+.ui-btn-dis, .ui-btn-dis:hover, .ui-btn-dis:active { text-shadow: none; font-weight: normal; border: 1px solid #d4d4d4; background: #f4f4f4; background: -moz-linear-gradient(top, #fff, #f4f4f4); background: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#f4f4f4)); background: -o-linear-gradient(top, #fff, #f4f4f4); background: -ms-linear-gradient(top, #fff 0%,#f4f4f4 100%); background: linear-gradient(top, #fff, #f4f4f4); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f4f4f4');color: #aaa; cursor: default; }
+
+.ui-btn-blue { padding: 0 16px; border: 1px solid #3279a0; box-shadow: 0 1px 1px rgba(0,0,0,0.3); background: #337fa9; background: -moz-linear-gradient(top, #4994be, #337fa9); background: -webkit-gradient(linear, 0 0, 0 100%, from(#4994be), to(#337fa9)); background: -o-linear-gradient(top, #4994be, #337fa9); background: -ms-linear-gradient(top, #4994be 0%,#337fa9 100%); background: linear-gradient(top, #4994be, #337fa9); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4994be', endColorstr='#337fa9');font-weight: bold; color: #fff; text-shadow: 0 2px 2px rgba(0,0,0,0.22); }
+.ui-btn-blue:hover { background: #3286b4; color: #fff; }
+.ui-btn-blue:active { background: -moz-linear-gradient(top, #2b6c90, #4994be); background: -webkit-gradient(linear, 0 0, 0 100%, from(#2b6c90), to(#4994be)); background: -o-linear-gradient(top, #2b6c90, #4994be); background: -ms-linear-gradient(top, #2b6c90 0%,#4994be 100%); background: linear-gradient(top, #2b6c90, #4994be); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b6c90', endColorstr='#4994be');}
+
+.ui-input {*margin-right:5px; padding: 6px 5px; width: 180px; height: 16px; line-height: 16px; border: 1px solid #ddd; color: #555; vertical-align: middle; outline: none; }
+.ui-input-def { color: #aaa; }
+.ui-input:hover { border: 1px solid #ccc; box-shadow: 0 1px 1px #ddd; }
+.ui-input:focus, .ui-input-focus { border: 1px solid #aaa; box-shadow: 0 2px 1px rgba(0,0,0,0.11) inset; }
+
+.mod-form li{padding:5px 0;}
+.mod-form li label{display: block;margin-bottom: 10px;font-weight: bold;}
+.tip{color:#999;}
+.tip-correct{color: #689800;}
+.tip-error,.set-result{color: #dd4e4e;}
+
+.success h3{margin-bottom: 20px;;font-size:16px;}
+.success ul li{padding: 5px;}

@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body, h1, h2, h3, h4, p, ul, ol, dl, dd, form, legend, button, input, textarea, th, td, figure { margin: 0; }
+body { font: 12px/1.5 \5b8b\4f53, Tahoma, sans-serif; color: #555; background: #F4F4F4; }
+input, textarea { font-size: 12px; }
+ul, ol { padding-left: 0; list-style-type: none; }
+a { color: #666; text-decoration: none; }
+a:hover { color: #2383c0; }
+a img { border: 0; }
+table { border-collapse: collapse; }
+.cf:after { clear: both; content: "."; display: block; height: 0; overflow: hidden; visibility: hidden; }
+.cf { *zoom:1;}
+.dn { display: none; }
+.fl { float: left; }
+.fr { float: right; }
+.mt12 { margin-top: 22px; }
+.mb6 { margin-bottom: 6px; }
+.tl { text-align: center; }
+.tc { text-align: center; }
+.tr { text-align: right; }
+.m0{ margin:0 !important; }
+.es { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#Wrapper { width: 100%; min-height: 400px; height: auto !important; height: 400px; margin: 0 auto; }
+.service .type { padding-left: 20px; height: 50px; color:#AAA; }
+.service .type a { display:inline-block; width: 85px; font: 16px/41px 'Microsoft YaHei', "微软雅黑"; ; text-align: center; cursor: pointer; height: 30px; line-height: 30px; margin: 18px 8px 0 8px; color:#555; }
+.service .type .cur { background: #F98307; color:#FFF; }
+.service .type a span{ background:#f74c23; color:#FFF; border-radius:5px; position:relative; padding:0 4px; line-height:1; margin:0 0 0 2px; font-size:12px; top:-5px; }
+
+.service-box{margin:18px 18px 0;min-width:800px;max-width: 1150px;border: 1px solid #cecece;box-shadow: 0 1px 1px rgba(0,0,0,0.11);background: #fff; }
+.service-hd{padding: 20px 30px;border-bottom: 1px dashed #ccc;line-height: 1.8;}
+.service-box .tit{ margin:10px 0 5px 0; }
+.question{ padding-bottom:20px; }
+
+.load-place{ height:480px; }
+.service-box table { margin: 0 auto; width: 100%; }
+.service-box thead th,.service-box thead td{padding:15px 0 10px 0;font-size: 14px;text-align: center;border-bottom: 1px dotted #ccc; color:#AAA; }
+.service-box thead th {  text-align: left; text-indent:30px; color:#555; }
+.service-box tbody td { padding:10px 10px 0;font-size: 14px;line-height: 1.8;text-align: center;}
+.service-box tbody td.title{text-align: left;text-indent: 1.5em;}
+.service-box tbody b { color: #2383c0; }
+.service-box tbody a { background:url(../../css/img/dot.gif) 0 center no-repeat; padding-left:12px; }
+.unread a{ color: #2383C0; font-weight:bold; }
+
+.paging {padding:15px 20px 15px 0; color:#AAA; }
+.paging a { color: #3B87B1; margin: 0 6px; }
+.paging a:hover { text-decoration: underline; }
+.paging .dis{ cursor:auto; color:#AAA; }
+.paging .dis:hover{ text-decoration:none; }
+.page-info{ color: #3B87B1; }
+.txt-go{ border:none; border-bottom:1px solid #CCC; width:20px; text-align:center; margin:0 3px; }
+.btn-go{ background:#87BEE1; color:#FFF; font-weight:bold; padding:0 6px; cursor:pointer; }
+
+.service-con .service-hd{overflow: hidden;*zoom:1;}
+.service-con .service-hd h3{float: left;font:bold 16px/1.2 \5b8b\4f53;color: #4e8cbc;}
+.service-con .service-hd .back{float: right;color: #9e9e9e;}
+.service-con .service-hd .back i{display:inline-block;*display:inline;*zoom:1;margin:-3px 5px 0 0;width:16px;height:16px;background: url('../../css/img/page_spr_icons.png') -432px -96px no-repeat;vertical-align: middle;}
+.service-con .con{padding: 10px 30px;line-height: 1.8;min-height:380px;_height:380px;}
+.service-con .skip{padding:10px 30px;text-align: right;color: #3B87B1;}
+.service-con .skip a { margin: 0 6px; color: #3B87B1; cursor:pointer; }
+.service-con .skip a.dis{ cursor:default; color:#aaa; }
+
+.problems-con .con{min-height: auto;_height:auto;}
+.problems-con .con h4{margin-bottom: 5px;font-size:14px;line-height: 1.5;color: #1984ca;}
+.problems-con .con h4 i{display: inline-block;*display: inline;*zoom: 1;margin:-5px 10px 0 0;width: 16px;height: 16px;background: url('../../css/img/page_spr_icons.png') 0 -128px no-repeat;vertical-align: middle;}
+.problems-con .con .ctn{padding:15px;background: #eef8fd;}
+.problems-con .con .time{text-align: right;color: #9e9e9e;}
+.problems-con .answer h4{color: #f98307;}
+.problems-con .answer h4 i{width: 20px;background-position: -16px -128px;}
+.problems-con .answer .ctn{background: #fff2e5;}
+.problems-con .continue-ask{margin:10px 30px;}
+.problems-con .continue-ask textarea{display: block;margin-bottom: 10px;padding:5px;width:97%;height:70px;border: 1px solid #cfcfcf;text-align: left;}
+
+
+.question h3{font-weight: normal;font-size: 12px;}
+.question h3 i{display: inline-block;*display: inline;*zoom: 1;margin-right: 5px;width: 16px;height: 14px;background: url('img/question_icon.png') no-repeat;vertical-align: middle;}
+.question h3 a { text-decoration: underline; color:#3B87B1; }
+.question .service-bd{ padding: 20px 0 0 150px; width:715px;background: url(img/tiwen.png) 55px 20px no-repeat; }
+.m20 { margin-bottom:20px; }
+.question label { font: 16px 'Microsoft YaHei', "微软雅黑"; display: inline-block; width: 80px; }
+.question textarea { width: 627px; height: 160px; border: 1px solid #caccca; overflow: auto; padding: 2px; font-size: 14px; }
+.txt_fw { height: 36px; font-size: 14px; width: 616px; padding: 0 5px; border: 1px solid #caccca; vertical-align: middle; }
+.question .submit { width: 83px; height: 41px; border: none; cursor: pointer; vertical-align: middle; background: url(img/search.png) 0 -41px; }
+#msg, #msg a { color: #2484c1; }
+#msg i { color: #c3273c; font-style: normal; }
+.details { width: 96%; margin: 0 auto; font-size: 14px; position: relative; padding-bottom:30px; }
+.details h3 { background: url("img/bb.gif") repeat-x scroll left bottom transparent; color: #2383C0; font-size: 14px; height: 30px; margin: 20px 0 20px; text-align: center; }
+.details .skip { position: absolute; top: 0; right: 0; }
+.details .skip a { margin: 0 6px; font-size: 12px; color: #3B87B1; cursor:pointer; }
+.details .skip a.dis{ cursor:auto; color:#AAA; }
+.details .con { background: none repeat scroll 0 0 #ECF4F9; padding: 20px; line-height: 1.8; margin: 0 auto; }
+
+.details h3.tl{ text-align:left; }
+.aq{ width:850px; line-height:1.8; }
+.aq dt{ padding:0; border-bottom:1px dotted #cdcdcd; padding:12px 0;}
+.aq dt label{ background:url(img/icon.png) -186px -18px no-repeat; padding-left:20px; float:left; }
+.aq .wrap-con{ display:block; float:left; width:810px; text-align:justify; padding:20px; background:#ECF4F9; }
+.aq .time{ display:block; text-align:right; font-size:12px; color:#999; }
+.aq dd{ color:#2383c0; clear:both; border-bottom:1px dotted #cdcdcd; padding:20px 0; }
+.aq dd label{ background:url(img/icon.png) -186px 6px no-repeat; padding-left:20px; float:left; }
+.aq textarea{ border:1px solid #cdcdcd; width:844px; padding:2px; height:108px; margin:10px 0 10px 0; font-size:14px; overflow:auto; }
+.bt_re_q{ width:83px; height:41px; border:none; }
+.bt_re_q{ background:url(img/search.png) -83px -41px; }
+
+#editor{ float:left; }
+
+.contact .list{padding:70px 0;}
+.contact .list li{float: left; width: 24.9%;}
+.contact .list .inner{margin:0 auto;width: 222px;height: 355px;border: 1px solid #e5e5e5;border-top: none;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;font-size: 12px;vertical-align: middle;}
+.contact .list .inner p{padding:0 3px;}
+.contact .list .inner .tit{ color: #888;font-size: 15px;font-weight: 900;line-height: 20px; }
+.contact .list i{_position:relative;display: block;margin:-5px -1px -10px;width: 223px;height: 142px;background: url('img/contact_icons.png') no-repeat;}
+.contact .list .qrCode .inner{ background:url(img/serviceChannel.jpg) center 0 no-repeat; text-indent:-9999px; border:none;margin-top: -10px;}
+.contact .list a{border-bottom: dashed 1px;}
+.contact .qq-club i{background-position: -223px 0; }
+
+.contact .email i{background-position: -446px 0;}

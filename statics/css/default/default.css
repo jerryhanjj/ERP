@@ -1,0 +1,42 @@
+body { background: #f4f4f4 url('img/side_rp.png') repeat-y -3px 0; }
+#col-side .side-fold, #nav .main-nav{ background-image: url('img/nav_spr.png'); }
+#nav{ padding-top: 46px; height:546px; margin-bottom: 10px; }
+#nav li.on, #nav li.current { background: url('img/side_rp2.png') repeat-y -3px 0; }
+#nav .arrow{ color: #b8d2e1; }
+#navScroll span{ background: #5584b3; }
+#scollUp{ margin-right:1px; }
+#navScroll span i { border-style: solid; border-width: 5px; font-size: 0; height: 0; display:block; width:0; height:0; overflow:hidden;}
+#scollUp i{ border-color: #5584b3 #5584b3 #bbcfeb #5584b3; margin:4px auto 0; }
+#scollDown i{ border-color: #bbcfeb #5584b3 #5584b3 #5584b3; margin:8px auto 0; }
+#main-hd{ background-color: #fff; color:#555; }
+#main-hd .company{ color: #333;cursor: default;font: bold 24px/1.5 'Microsoft Yahei';text-shadow: 0 0 1px rgba(0,0,0,0.2);max-width: 360px;float: left;overflow: hidden;display: block;white-space: nowrap;text-overflow: ellipsis; }
+#main-hd .user-menu a{ color:#555; }
+#main-hd .user-menu a:hover { color:#2383c0; }
+#main-hd .user-menu a#mobile{background-color: #E65300;color: #fff;padding: 0 6px;border-radius: 3px;font-family: '微软雅黑';}
+#main-bd{ background-color: #fff; }
+.l-tab-links{ margin: 0 18px -1px; }
+.l-tab-links ul { padding: 2px 0 0 1px;}
+.l-tab-links li.l-selected { height: 30px; line-height: 30px; top: -2px; border: 1px solid #CCC; border-bottom: 1px solid #f4f4f4; border-top-left-radius: 2px; border-top-right-radius: 2px; background: #f4f4f4; }
+.l-tab-links li{ margin-left: -1px; height: 28px; line-height: 28px; border: 1px solid #dedede; }
+.l-tab-links li a{ color: #aaa; }
+.l-tab-links li:first-child { border-top-left-radius: 2px; }
+.l-tab-links li:last-child { border-top-right-radius: 2px; }
+#tabManage{ background:#fff; }
+#tabManage i{ border-color: #888 #fff #fff; }
+.l-tab-links-left, .l-tab-links-right{ top: 2px; height: 28px; background: #fff; border: 1px solid #dedede; }
+.l-tab-links-left i{ border-color: #FFF #555 #FFF #FFF; }
+.l-tab-links-right i{ border-color: #FFF #FFF #FFF #555; margin: 10px 0 0 5px;}
+.l-tab-content { border-top: 1px solid #d6d6d6; }
+.l-tab-links-item-close{ background: url(img/tab_close.png) no-repeat; }
+.l-tab-links .l-tab-links-item-close-over { background-color: #ddd; }
+
+/* 皮肤选择 */
+.shadow{-moz-box-shadow:1px 1px 3px rgba(0,0,0,.4); -webkit-box-shadow:1px 1px 3px rgba(0,0,0,.4); box-shadow:1px 1px 3px rgba(0,0,0,.4); }
+#selectSkin{ width:180px; padding:10px; border:1px solid #ccc; background-color:#fff;}
+#selectSkin li{ float:left; width:60px; text-align:center; }
+#selectSkin li a{ position:relative; width:42px; margin:0 auto; display:block; }
+#selectSkin .select i{ position:absolute; top:16px; right:5px; width:16px; height:16px; background:url(img/select_skin.png) 0 0; z-index:1; }
+#selectSkin li span{ display:block; width:32px; height:32px; margin :0 auto 6px; border: 1px dotted #497dc0;}
+#skin-default span{ background: url('img/index_icons.png') repeat-x 0 -200px; }
+#skin-blue span{ background: url('img/index_icons.png') repeat-x -65px -218px; }
+#skin-green span{ background: #1B96A9; }

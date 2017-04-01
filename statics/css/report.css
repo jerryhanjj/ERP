@@ -1,0 +1,37 @@
+html{_text-overflow:ellipsis;_background: #f5f5f5; overflow:hidden;}
+html,body {height:100%;}
+thead{word-break: keep-all;white-space:nowrap;}
+
+.mod-report{position: relative;*zoom: 1;padding:68px 0 0 18px;overflow:auto;}
+.mod-report .search-wrap{position: fixed;left: 0;top: 0;z-index: 10;width: 100%;_position:absolute;_left:expression(eval(document.documentElement.scrollLeft));_top:expression(eval(document.documentElement.scrollTop));background: #f5f5f5;}
+.mod-report .search-wrap .s-inner{padding: 18px;}
+.mod-report .search-wrap strong.tit{font-size:14px;line-height: 30px; font-weight:normal;}
+.mod-report .search-wrap .txt{display: inline-block;*display: inline;*zoom: 1;font-size: 14px;line-height: 30px;}
+
+#filter-menu .mod-choose-input{position: relative;*zoom: 1;}
+#filter-menu .mod-choose-input .ui-input{padding-right: 25px;width:226px; font-family:"宋体";}
+#filter-menu .ui-datepicker-input{width:105px; font-family:"宋体";}
+
+/* 表格 */
+.ui-print {display:inline-block; width:100%;}
+.ui-print .grid-wrap { background: #fff; padding: 18px; margin-right:18px;  box-shadow: 0 1px 3px rgba(0,0,0,0.2); border: 1px solid #cfcfcf; clear: both;}
+.ui-print .ui-jqgrid .ui-jqgrid-view th,
+.ui-print .ui-jqgrid .ui-jqgrid-view td,
+.ui-print .ui-jqgrid .ui-jqgrid-view div {
+    border-color: #999;
+}
+.ui-print .ui-jqgrid .ui-jqgrid-hdiv,
+.ui-print .ui-jqgrid .ui-jqgrid-htable th {
+	background: #fff;
+}
+.ui-print .ui-jqgrid .ui-jqgrid-pager {
+	background: #fff;
+}
+.ui-print .ui-widget-content {border:none;}
+.ui-print .ui-jqgrid .ui-jqgrid-btable {*margin-top: -1px;}
+.ui-print .ui-jqgrid {border:1px solid #999;}
+.ui-print .ui-jqgrid .ui-jqgrid-sdiv {border-top: 1px solid #666;}
+.ui-print .ui-jqgrid .ui-jqgrid-sdiv td {border-top:none;}
+.ui-print .ui-jqgrid .frozen-div {background:#fff !important;}
+.ui-print .ui-jqgrid .frozen-div .ui-jqgrid-resize-ltr {margin: 0 -2px 0 0px;}
+.ui-print .ui-jqgrid .frozen-bdiv table {background:#fff}

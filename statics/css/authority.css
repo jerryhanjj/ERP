@@ -1,0 +1,37 @@
+@charset "utf-8";
+.authority-ctn-wrap{font-size: 14px}
+.authority-ctn-wrap .tips a{color: #3B87B1;}
+.authority-ctn-wrap .tips{margin-bottom: 20px;}
+.register-wrap h3{margin-bottom: 15px;}
+.register-form .ui-input{width: 320px;float: left;}
+.register-form .btn-row{padding-left: 260px;}
+.register-form .msg{clear:both;padding: 5px 0;color: #999; font-size:12px; }
+.register-form .msg a{color:#999;}
+.register-form .msg-focus,.register-form .msg-focus a{color: #555;}
+.register-form .valid-msg,.register-form .loading{float:left;display:inline;height:20px;vertical-align:middle;margin:5px 0 0 15px;position: relative;padding-left: 20px; line-height:1.5;}
+.register-form .valid-msg i{position:absolute;left:0;top:2px;width:16px;height:16px;display:block;background: url('../css/img/spr_icons.png') no-repeat;}
+.register-form .loading i{position:absolute;left:0;top:2px;}
+.register-form .valid-error i{background-position: -16px 0;}
+.register-form .valid-error{color: #dd4e4e; line-height:1.5; }
+.register-form .input-error{border-color: #dd4e4e;}
+.pswStrength{float:left;margin-left:15px;line-height:18px;vertical-align:middle;}
+.pswStrength p{color: #3B87B1;font-size: 12px;}
+.pswStrength b{float:left;display:inline;margin-right:5px;width: 30px;height: 10px;border:1px solid #ccc;font-size: 0;line-height: 0;overflow: hidden;background: #fff;}
+.pswStrength .on{background-color: #ffd35b;}
+.search-form input{width: 200px;}
+
+.authority-setting-wrap{margin-bottom:20px;background:#fff;border-spacing:0;border: 1px solid #cfcfcf; border-top: none;}
+.authority-tit span{font-weight: normal;}
+.authority-tit #userName{font-weight: bold;}
+.authority-setting-table{margin-bottom: 20px;}
+.authority-setting-table th,.authority-setting-table td{padding: 0 5px;text-align: center;}
+.authority-setting-table th{color:#555; height:40px; line-height: 40px; background: #f0f0f0 url('../css/img/ui-thead.png') repeat-x;border: 1px solid #cfcfcf; border-width:1px 0;}
+.authority-setting-table td{height: 35px;line-height: 35px;}
+.authority-setting-table tbody{background: #fff;}
+.authority-setting-table input{vertical-align: middle;}
+.authority-setting-table thead .category{font-size: 14px;}
+.authority-setting-table .category{text-align: left;}
+.mod-toolbar-top .authority-btns{margin-right:0;}
+.authority-btns{text-align: right;margin-right: -10px;}
+.authority-setting-table .backup td{text-align: left;}
+.authority-setting-table .backup input{margin-right: 3px;}

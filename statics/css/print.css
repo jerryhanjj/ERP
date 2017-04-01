@@ -1,0 +1,38 @@
+@media print {
+    /* 页边距 */
+    @page {margin:.5cm;}
+    * {background:transparent !important; color:#333 !important; box-shadow:none !important; text-shadow:none !important; filter:0 !important; -ms-filter:0 !important;}
+    thead {display:table-header-group;}
+    tr,td,img {page-break-inside:avoid;}
+    h2,h3 {page-break-after:avoid;}
+    p,h2,h3 {orphans:3; widows:3;}
+
+    /* 打印不要出现滚动条 */
+    .ui-jqgrid .ui-jqgrid-bdiv,
+    .ui-jqgrid .ui-jqgrid-bdiv > div {
+        height: auto !important;
+    }
+    /* 打印不要出现分页栏 */
+    .ui-print .ui-jqgrid .ui-jqgrid-pager{display: none;}
+    /* 加上这个class，就不会打印该区域 */
+    .ui-noprint {display: none;}
+}
+
+/* table单独的打印预览样式 */
+.ui-table-print {width: 100%; border-collapse: collapse; border-spacing: 0; font-size: 12px;margin: 1px -1px 0 1px; border: 1px solid #666;}
+.ui-table-print th,
+.ui-table-print td {
+    padding: 5px 2px;
+    border: 1px solid;
+    border-color: #666 !important;
+    height: auto !important;
+    vertical-align: top;
+}
+.ui-table-print th {text-align: center; vertical-align: middle; white-space: nowrap;}
+.ui-table-print span {display: none;}
+.ui-table-print .jqgrid-rownum {width: auto !important;}
+.ui-table-print .jqg-first-row-header {display: none;}
+.ui-table-print .ui-th-column-header {border-top: 1px solid !important;}
+
+.grid-title {font-size: 24px; text-align:center; width:100%; clear:both;}
+.grid-subtitle {width:100%; clear:both; font-size:12px; text-align:left; font-weight:400; padding: 5px 0;}
