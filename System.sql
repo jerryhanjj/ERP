@@ -150,7 +150,7 @@ CREATE TABLE `ci_admin` (
 
 LOCK TABLES `ci_admin` WRITE;
 /*!40000 ALTER TABLE `ci_admin` DISABLE KEYS */;
-INSERT INTO `ci_admin` VALUES (1,'admin','1f7456dc5f6c6bbc3e11b78df44456e4',1,'韩俊杰','17805931780',NULL,0,'',NULL,NULL,NULL,NULL,NULL),(2,'raorao','79d67a2cba9c0aae75c36c79bcaeb736',1,'饶文庭','13616216521','188,189,190,191,192,193',1,'1,2,4,8','1','2',NULL,'a:1:{i:0;a:2:{s:7:\"FITEMID\";i:2;s:6:\"FRIGHT\";i:1;}}','2');
+INSERT INTO `ci_admin` VALUES (1,'admin','a66abb5684c45962d887564f08346e8d',1,'韩俊杰','17805931781',NULL,0,'',NULL,NULL,NULL,NULL,NULL),(2,'raorao','79d67a2cba9c0aae75c36c79bcaeb736',1,'饶文庭','13616216521','188,189,190,191,192,193',1,'1,2,4,8','1','2',NULL,'a:1:{i:0;a:2:{s:7:\"FITEMID\";i:2;s:6:\"FRIGHT\";i:1;}}','2');
 /*!40000 ALTER TABLE `ci_admin` ENABLE KEYS */;
 UNLOCK TABLES;
 
